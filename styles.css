@@ -1,0 +1,110 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+a{
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    color: green;
+    text-decoration: overline;
+}
+#about{
+    display: flex;
+}
+.photos{
+    background-color:black;
+    border-radius: 5px;
+    width: 800px;
+    height: 100px;
+    font-family: arial;
+    border-radius: 20px;
+    margin-left: 300px;
+    text-align: center;
+    color: white;
+}
+#linkedin{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+}
+#instagram{
+    height:30px;
+    width: 30px;
+    margin-left: 0px;
+    background-color: white;
+}
+.footer{
+    background-color: black;
+    color: blue;
+    display: flex;
+}
+#whatsapp{
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    background-color: white;
+}
+body{
+    font-family: arial;
+}
+#web{
+    background-color: white;
+    width: 550px;
+    margin-left: 50px;
+}
+#div{
+    background-color:aqua;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+#more{
+    background-color: lightblue;
+ border-style:hidden;
+ height:30px;
+ border-radius:5px;
+ color:white;
+ -webkit-transition-duration: 1s;
+ transition-duration: 1s;
+}
+#more:hover{
+    background-color: blue;
+    border-color: green;
+    border-style: dashed;
+    cursor: pointer;
+}
+#blue{
+    text-align: center;
+    display: flex;
+}
+img{
+    width:100px;
+    height: 100px;
+}
+input{
+    height:30px;
+    width: 550px;
+    background-color: lightblue;
+    border-style: hidden;
+}
+a:hover{
+    color:lightblue
+}
+@media(max-width:700px){
+    .p{
+        font-size: 20px;
+    }
+    .photos{
+        margin-left: 0px;
+        width: 670px;
+    }
+    #style{
+        flex-direction: column;
+    }
+}   
+
